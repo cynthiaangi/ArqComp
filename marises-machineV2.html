@@ -144,24 +144,21 @@
 <script>
 
 function converter() {
-    
-    var decimal = Number (demo1.value);
+        
+        var decimal = Number (demo1.value);     
+        let octal = decimal.toString(8);        
+        let hexadecimal = decimal.toString(16); 
+        let binaria = decimal.toString(2);  
 
-let octal = decimal.toString(8);
+        console.log (decimal);
+        console.log (octal);
+        console.log (hexadecimal);
+        console.log (binaria);  
 
-let hexadecimal = decimal.toString(16);
-
-let binaria = decimal.toString(2);
-
-console.log (decimal);
-console.log (octal);
-console.log (hexadecimal);
-console.log (binaria);
-
-document.getElementById("demo1").innerHTML = ` ${decimal}`;
-document.getElementById("demo2").innerHTML = ` ${octal}`;
-document.getElementById("demo3").innerHTML = ` ${hexadecimal}`;
-document.getElementById("demo4").innerHTML = ` ${binaria}`;
+        document.getElementById("demo1").innerHTML = ` ${decimal}`;
+        document.getElementById("demo2").innerHTML = ` ${octal}`;
+        document.getElementById("demo3").innerHTML = ` ${hexadecimal}`;
+        document.getElementById("demo4").innerHTML = ` ${binaria}`;
 
 
 }
@@ -185,23 +182,23 @@ document.bgColor = "#fff";
 
 function converterOctal() {
     
-    var octal1 = demo5.value;
+        var octal1 = demo5.value;
 
-let decimal1 = parseInt(octal1, 8);
+        let decimal1 = parseInt(octal1, 8);
 
-let hexadecimal1 = decimal1.toString(16);
+        let hexadecimal1 = decimal1.toString(16);
 
-let binaria1 = decimal1.toString(2);
+        let binaria1 = decimal1.toString(2);
 
-console.log (decimal1);
-console.log (octal1);
-console.log (hexadecimal1);
-console.log (binaria1);
+        console.log (decimal1);
+        console.log (octal1);
+        console.log (hexadecimal1);
+        console.log (binaria1);
 
-document.getElementById("demo5").innerHTML = ` ${octal1}`;
-document.getElementById("demo6").innerHTML = ` ${decimal1}`;
-document.getElementById("demo7").innerHTML = ` ${hexadecimal1}`;
-document.getElementById("demo8").innerHTML = ` ${binaria1}`;
+        document.getElementById("demo5").innerHTML = ` ${octal1}`;
+        document.getElementById("demo6").innerHTML = ` ${decimal1}`;
+        document.getElementById("demo7").innerHTML = ` ${hexadecimal1}`;
+        document.getElementById("demo8").innerHTML = ` ${binaria1}`;
 
 
 }
@@ -224,23 +221,23 @@ function aparecer_dec1() {
 
 function converterHexa() {
     
-    var hexadecimal2 = demo9.value;
+        var hexadecimal2 = demo9.value;
 
-let decimal2 = parseInt(hexadecimal2, 16);
+        let decimal2 = parseInt(hexadecimal2, 16);
 
-let octal2 = decimal2.toString(8);
+        let octal2 = decimal2.toString(8);
 
-let binaria2 = decimal2.toString(2);
+        let binaria2 = decimal2.toString(2);
 
-console.log (decimal2);
-console.log (octal2);
-console.log (hexadecimal2);
-console.log (binaria2);
+        console.log (decimal2);
+        console.log (octal2);
+        console.log (hexadecimal2);
+        console.log (binaria2);
 
-document.getElementById("demo11").innerHTML = ` ${octal2}`;
-document.getElementById("demo10").innerHTML = ` ${decimal2}`;
-document.getElementById("demo9").innerHTML = ` ${hexadecimal2}`;
-document.getElementById("demo12").innerHTML = ` ${binaria2}`;
+        document.getElementById("demo11").innerHTML = ` ${octal2}`;
+        document.getElementById("demo10").innerHTML = ` ${decimal2}`;
+        document.getElementById("demo9").innerHTML = ` ${hexadecimal2}`;
+        document.getElementById("demo12").innerHTML = ` ${binaria2}`;
 
 
 }
@@ -260,24 +257,24 @@ function aparecer_dec2() {
 document.bgColor = "#fff";
 
 function converterBin() {
-    
-    var bin3 = demo13.value;
+        
+        var bin3 = demo13.value;
 
-let decimal3 = parseInt(bin3, 2);
+        let decimal3 = parseInt(bin3, 2);
 
-let hexadecimal3 = decimal3.toString(16);
+        let hexadecimal3 = decimal3.toString(16);
 
-let octal3 = decimal3.toString(8);
+        let octal3 = decimal3.toString(8);
 
-console.log (decimal3);
-console.log (octal3);
-console.log (hexadecimal3);
-console.log (bin3);
+        console.log (decimal3);
+        console.log (octal3);
+        console.log (hexadecimal3);
+        console.log (bin3);
 
-document.getElementById("demo16").innerHTML = ` ${octal3}`;
-document.getElementById("demo14").innerHTML = ` ${decimal3}`;
-document.getElementById("demo15").innerHTML = ` ${hexadecimal3}`;
-document.getElementById("demo13").innerHTML = ` ${bin3}`;
+        document.getElementById("demo16").innerHTML = ` ${octal3}`;
+        document.getElementById("demo14").innerHTML = ` ${decimal3}`;
+        document.getElementById("demo15").innerHTML = ` ${hexadecimal3}`;
+        document.getElementById("demo13").innerHTML = ` ${bin3}`;
 
 
 }
