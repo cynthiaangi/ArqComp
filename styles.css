@@ -13,7 +13,7 @@ body {
 
 #cabecalho {
     text-align: center;
-    background-color: #1b2f03;
+    background-color: rgb(6, 73, 49);
     margin: 0;
     padding: 15px 0;
     font-family: 'Playpen Sans', sans-serif;
@@ -29,7 +29,7 @@ body {
 }
 
 .container_numeral {
-    background-color: #1b2f03;
+    background: rgba(6, 73, 49, 0.8);
     padding: 5% 25% 5% 5%;
     border-radius: 18px;
     margin-left: 22%;
@@ -59,4 +59,12 @@ button {
     border-radius: 18px;
     padding: 5px 40px;
     border: 5px outset #3cb371;
+}
+
+#rodape {
+    text-align: center;
+    background-color: rgb(6, 73, 49);
+    margin: 0;
+    padding: 15px 0;
+    font-family: 'Playpen Sans', sans-serif;
 }
